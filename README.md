@@ -45,31 +45,38 @@ Historical Trend Analysis
 | Amazon CloudWatch | Monitors logs and pipeline health. |
 | AWS IAM | Manages security and permissions. |
 
-# 📂 Data Lake Layers
-🥉 Bronze Layer
+## 📂 Data Lake Layers
+
+### 🥉 Bronze Layer
 Stores raw YouTube data exactly as received.
 
-🥈 Silver Layer
+### 🥈 Silver Layer
 Cleaned and standardized datasets.
 
-Transformations:
-Null Handling
-Schema Enforcement
-Data Type Conversion
-Deduplication
-Derived Metrics
+**Transformations:**
+- Null Handling
+- Schema Enforcement
+- Data Type Conversion
+- Deduplication
+- Derived Metrics
 
-🥇 Gold Layer
+### 🥇 Gold Layer
 Business-ready analytics tables.
 
-Generated Tables:
-trending_analytics
-channel_analytics
-category_analytics
+**Generated Tables:**
+- `trending_analytics`
+- `channel_analytics`
+- `category_analytics`
 
-# 👨‍💻 Author
+---
 
-Jay Nigam
+## 👨‍💻 Author
+
+**Jay Nigam**  
 Aspiring Data Engineer
-GitHub: https://github.com/jaynigam7
-LinkedIn: https://www.linkedin.com/in/jay-nigam
+
+**GitHub:**  
+https://github.com/jaynigam7
+
+**LinkedIn:**  
+https://www.linkedin.com/in/jay-nigam
